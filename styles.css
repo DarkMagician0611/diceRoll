@@ -215,28 +215,53 @@ button:hover {
 }
 
 .input-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input {
-    height: 30px;
-    width: 100px;
-    justify-self: center;
-    align-self: center;
-    font-size: 16px;
-    margin: 0 20px;
+  height: 30px;
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+  font-size: 16px;
+  margin: 0 20px;
 }
 
 #game {
-    width: 50px;
+  width: 50px;
 }
 
 .win {
-    justify-self: center;
-    align-self: center;
-    font-size: 40px;
-    color: gold;
-    font-weight: 600;
+  justify-self: center;
+  align-self: center;
+  font-size: 40px;
+  color: gold;
+  font-weight: 600;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.bottom-image {
+  height: 40vh;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.table-image {
+  width: 275px;
+  height: 100%;
+}
+
+.stats-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
